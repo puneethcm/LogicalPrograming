@@ -5,7 +5,7 @@ namespace LogicalPrograming
 	{
 		public static void FindFibonacciNumber()
 		{
-            Console.WriteLine("\nEnter the number");
+            Console.WriteLine("\nEnter the number to find Fibonacci numbers");
             int number = Convert.ToInt32(Console.ReadLine());
             int n1 = 0, n2 = 1, n3, i;
             Console.Write("\nFibonacci Numbers are: ");
